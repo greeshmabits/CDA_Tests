@@ -20,8 +20,9 @@ Test3_ValidGeneralUserLogin
     checkHomePageWithSpecifiedUsername  ${general_username}
 
 Test4_AnalyzeData
-    startBrowserAndAccessSpecifiedPage  ${analyze_page_url}
+    startBrowserAndAccessSpecifiedPage  ${home_page_url}
     InputValidUsernamePasswordAndSubmit  ${admin_username}  ${admin_password}
+    accessAnalyzeDataPage
     UploadFileAndSelectDataModelToAnalyzeAndConfirmResultPage  ${file_name}  ${model_name}
 
 
