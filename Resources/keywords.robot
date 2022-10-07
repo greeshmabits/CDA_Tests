@@ -63,7 +63,7 @@ UploadFileAndSelectDataModelToAnalyzeAndConfirmResultPage
     page should contain element  ${analysis_report}
     log to console  !---Analysis report generated successfully-----------!
     
-   accessAnalyzeDataPage
+accessAnalyzeDataPage
         waitUntilElementIsEnabledAndClick  //*[text()='AnalyzeData']  AnalyzeData
 
 
