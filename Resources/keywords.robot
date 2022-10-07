@@ -62,5 +62,8 @@ UploadFileAndSelectDataModelToAnalyzeAndConfirmResultPage
     wait until element is visible  ${analysis_report}
     page should contain element  ${analysis_report}
     log to console  !---Analysis report generated successfully-----------!
+    
+    accessAnalyzeDataPage
+        waitUntilElementIsEnabledAndClick  //*[text()='AnalyzeData']  AnalyzeData
 
 
