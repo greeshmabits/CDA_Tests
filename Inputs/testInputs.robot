@@ -5,8 +5,8 @@ Library    SeleniumLibrary
 
 *** Variables ***
 ${page_title}  ChemometricsDataAnalyzer
-${home_page_url}    http://localhost:3000/
-${analyze_page_url}  http://localhost:3000/loggedin/analyzeData
+${home_page_url}    http://52.66.217.199:3000/
+${analyze_page_url}  http://52.66.217.199:3000/loggedin/analyzeData
 ${file_name}  Inputs/DataSample_1.csv
 ${model_name}  model1_pls
 ${browser}    headlesschrome
